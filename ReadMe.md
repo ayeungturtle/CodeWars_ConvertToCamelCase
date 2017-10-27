@@ -1,4 +1,5 @@
 # Convert to camelCase (5kyu)
+## To see the code, open the folder and open "Program.cs."
 
 Complete the method/function so that it converts dash/underscore delimited 
 words into camel casing. The first word within the output should be capitalized 

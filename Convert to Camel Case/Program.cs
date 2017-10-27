@@ -8,7 +8,7 @@ namespace Convert_to_Camel_Case
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //used to test functionality
         {
             string test1 = "the_stealth_warrior";
             string test2 = "The-Stealth-Warrior";
@@ -16,6 +16,7 @@ namespace Convert_to_Camel_Case
             Console.WriteLine(ToCamelCase(test2));
             Console.ReadLine();
         }
+
         public static string ToCamelCase(string str)
         {
             string title = str;
