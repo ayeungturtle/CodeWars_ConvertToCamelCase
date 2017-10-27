@@ -12,17 +12,9 @@ namespace Convert_to_Camel_Case
         {
             string test1 = "the_stealth_warrior";
             string test2 = "The-Stealth-Warrior";
-            //string test = "helloworld";
-            //Console.WriteLine((test[0].ToString()).ToUpper());
-            //Console.ReadLine();
-
             Console.WriteLine(ToCamelCase(test1));
             Console.WriteLine(ToCamelCase(test2));
-
             Console.ReadLine();
-
-
-
         }
         public static string ToCamelCase(string str)
         {
@@ -43,9 +35,6 @@ namespace Convert_to_Camel_Case
                 title = title.Remove(spaceLocation, 1);
                 title = title.Substring(0, spaceLocation) + ((title[spaceLocation].ToString()).ToUpper() + title.Substring(spaceLocation + 1));
             }
-
-
-
             return title;
         }
     }
